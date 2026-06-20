@@ -28,8 +28,8 @@ ul {
     background-color: #eeeeee;
     border: 5px solid purple;
     padding: 30px;
+    border-radius: 8px;
 }
-
 a {
     color: green;
 }
