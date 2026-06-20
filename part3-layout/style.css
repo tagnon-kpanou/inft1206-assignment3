@@ -53,3 +53,47 @@ nav a {
 .feature {
   width: 200px;
 }
+/* Navigation: flexbox with equal spacing */
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Sticky navigation */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Feature image: float with text wrap */
+
+.feature {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/* Two-column layout: article + aside */
+
+.grid {
+    display: flex;
+    gap: 20px;
+}
+
+.grid article {
+    flex: 3;
+}
+
+.grid aside {
+    flex: 1;
+}
+
+/* Photo grid: two equal columns */
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
