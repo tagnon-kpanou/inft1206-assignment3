@@ -3,7 +3,10 @@ html {
 }
 
 body {
-  font: 1.2em / 1.5 system-ui;
+    font: 1.2em / 1.5 system-ui;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 h1 {
     color: darkslategray;
