@@ -97,3 +97,10 @@ nav {
     grid-template-columns: 1fr 1fr;
     gap: 5px;
 }
+img {
+    border-radius: 4px;
+}
+
+.photos li {
+    overflow: hidden;
+}
