@@ -86,3 +86,19 @@ a[href^="http"]::after {
     content: " ↗";
     font-size: 0.8em;
 }
+/* List styling */
+
+ul, ol {
+    line-height: 1.5;
+    margin: 1em 0;
+}
+
+main > section ul,
+main > section ol {
+    list-style-type: square;
+}
+
+aside ul {
+    list-style-image: none;
+    list-style-type: "→ ";
+}
